@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>Django 部落格</title>
+	</head>
+	<body>
+		<div>
+			<h1><a href="">Django 部落格</a></h1>
+		</div>
+		{% for post in posts %}
+		<div>
+			<!-- <p>發布時間：26.07.2017 18:00</p>
+			<h2><a href="">我的第一篇部落格</a></h2>
+			<p></p>
+		</div>
+
+		<div>
+			<p>發布時間：26.07.2017 19:00</p>
+			<h2><a href="">我的第二篇部落格</a></h2>
+			<p></p> -->
+			<p>發佈時間:{{ post.published_date }}</p>
+			<h2><a href="">{{ post.title }}</a></h2>
+			<p>{{ post.text }}</p>
+		</div>
+		{% endfor %}
+	</body>
+</html>
