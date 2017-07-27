@@ -27,7 +27,7 @@ SECRET_KEY = 'ipr5m(nh(y!uy0z7vc!!$v+ufw^=z&$p_y6$#xfo8i+jk+z&zu'
 DEBUG = True
 
 #ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['localhost', '[nameless-coast-75230].herokuapp.com']
+ALLOWED_HOSTS = ['localhost', '[powerful-dawn-47772].herokuapp.com']
 
 # Application definition
 
